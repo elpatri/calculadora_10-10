@@ -5,6 +5,7 @@
  */
 package br.edu.ifro.model;
 
+
 /**
  *
  * @author 00594939259
