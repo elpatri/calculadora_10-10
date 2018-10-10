@@ -25,8 +25,8 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
        try {
-            Parent root = FXMLLoader.load(getClass().getResource("/br/edu/ifro/view/Login.fxml"));
-            Scene scene = new Scene(root, 600, 400);
+            Parent root = FXMLLoader.load(getClass().getResource("/br/edu/ifro/view/Calculadora.fxml"));
+            Scene scene = new Scene(root, 480, 480);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.setTitle("Calculadora");
