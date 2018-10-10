@@ -1,11 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.CalculadoraController">
-    
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.CalculadoraController">
+   <children>
+      <Button fx:id="btnLimpar" layoutX="20.0" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" text="CE">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtResultado" editable="false" layoutX="20.0" layoutY="14.0" prefHeight="60.0" prefWidth="430.0" />
+      <Button fx:id="btnLimparTudo" layoutX="155.0" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="95.0" text="C">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" layoutX="20.0" layoutY="175.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="7">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="100.0" layoutY="175.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="8">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="180.0" layoutY="175.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="9">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="4">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="100.0" layoutY="250.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="5">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="180.0" layoutY="250.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="6">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="20.0" layoutY="325.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="1">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="100.0" layoutY="325.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="2">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="180.0" layoutY="325.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="3">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSomar" layoutX="300.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="70.0" text="+">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMultiplicar" layoutX="381.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="70.0" text="*">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSubtrair" layoutX="300.0" layoutY="169.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="70.0" text="-">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDividir" layoutX="380.0" layoutY="169.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="70.0" text="/">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnResultado" layoutX="300.0" layoutY="242.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="150.0" text="=">
+         <font>
+            <Font name="Segoe UI Bold" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="20.0" layoutY="400.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="150.0" text="0">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPonto" layoutX="180.0" layoutY="400.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="68.0" text=".">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPonto1" layoutX="301.0" layoutY="400.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Usuário">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPonto11" layoutX="301.0" layoutY="434.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Histórico">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
