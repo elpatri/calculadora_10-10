@@ -35,12 +35,12 @@ public class LoginController implements Initializable {
     private PasswordField txtSenha;
     
     
-    
+    @FXML
     public void entrar(){
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("Calculadora");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("calculadora");
         EntityManager em = emf.createEntityManager();
         
-        Query query = em.createQuery("select senha_user from Usuario where nick_user = :nick");
+        Query query = em.createQuery("select senha_usu from Usuario where username_usu = :nick");
         query.setParameter("nick", txtUsername.getText());
         
         
@@ -64,6 +64,7 @@ public class LoginController implements Initializable {
         
     }
     
+    @FXML
     public void chamarcalc(){
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/br/edu/ifro/view/Calculadora.fxml"));
