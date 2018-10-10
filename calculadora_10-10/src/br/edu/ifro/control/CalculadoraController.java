@@ -74,22 +74,28 @@ public class CalculadoraController implements Initializable {
     private void button0 (){
         if (num1==null && sinal==null){
             num1 = "0";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"0";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "0"; 
+               num2 = "0";
+               txtResultado.setText(num2);
             }else{
                 num1 = "0";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "0"; 
+               num2 = "0";
+               txtResultado.setText(num2);
             }else{
                 num1 = "0";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -97,22 +103,28 @@ public class CalculadoraController implements Initializable {
     private void button1 (){
         if (num1==null && sinal==null){
             num1 = "1";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"1";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "1"; 
+               num2 = "1";
+               txtResultado.setText(num2);
             }else{
                 num1 = "1";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "1"; 
+               num2 = "1";
+               txtResultado.setText(num2);
             }else{
                 num1 = "1";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -120,22 +132,28 @@ public class CalculadoraController implements Initializable {
     private void button2 (){
         if (num1==null && sinal==null){
             num1 = "2";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"2";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "2"; 
+               num2 = "2";
+               txtResultado.setText(num2);
             }else{
                 num1 = "2";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
                num2 = "2"; 
+               txtResultado.setText(num2);
             }else{
                 num1 = "2";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -143,22 +161,28 @@ public class CalculadoraController implements Initializable {
     private void button3 (){
         if (num1==null && sinal==null){
             num1 = "3";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"3";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "3"; 
+               num2 = "3";
+               txtResultado.setText(num2);
             }else{
                 num1 = "3";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "3"; 
+               num2 = "3";
+               txtResultado.setText(num2);
             }else{
                 num1 = "3";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -166,22 +190,28 @@ public class CalculadoraController implements Initializable {
     private void button4 (){
         if (num1==null && sinal==null){
             num1 = "4";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"4";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "4"; 
+               num2 = "4";
+               txtResultado.setText(num2);
             }else{
                 num1 = "4";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
                num2 = "4"; 
+               txtResultado.setText(num2);
             }else{
                 num1 = "4";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -189,22 +219,28 @@ public class CalculadoraController implements Initializable {
     private void button5 (){
         if (num1==null && sinal==null){
             num1 = "5";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"5";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "5"; 
+               num2 = "5";
+               txtResultado.setText(num2);
             }else{
                 num1 = "5";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "5"; 
+               num2 = "5";
+               txtResultado.setText(num2);
             }else{
                 num1 = "5";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -212,45 +248,59 @@ public class CalculadoraController implements Initializable {
     private void button6 (){
         if (num1==null && sinal==null){
             num1 = "6";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"6";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "6"; 
+               num2 = "6";
+               txtResultado.setText(num2);
             }else{
                 num1 = "6";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "6"; 
+               num2 = "6";
+               txtResultado.setText(num2);
             }else{
                 num1 = "6";
+                txtResultado.setText(num1);
             }
         }
+        
+        
     }
     
     private void button7 (){
         if (num1==null && sinal==null){
             num1 = "7";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"7";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "7"; 
+               num2 = "7";
+               txtResultado.setText(num2);
             }else{
                 num1 = "7";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "7"; 
+               num2 = "7";
+               txtResultado.setText(num2);
             }else{
                 num1 = "7";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -258,22 +308,28 @@ public class CalculadoraController implements Initializable {
     private void button8 (){
         if (num1==null && sinal==null){
             num1 = "8";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"8";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "8"; 
+               num2 = "8";
+               txtResultado.setText(num2);
             }else{
                 num1 = "8";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "8"; 
+               num2 = "8";
+               txtResultado.setText(num2);
             }else{
                 num1 = "8";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -281,22 +337,28 @@ public class CalculadoraController implements Initializable {
     private void button9 (){
         if (num1==null && sinal==null){
             num1 = "9";
+            txtResultado.setText(num1);
         }
         else if(num1=="" && sinal==null){
             num1 = num1+"9";
+            txtResultado.setText(num1);
         }
         else if (num2==null && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "9"; 
+               num2 = "9";
+               txtResultado.setText(num2);
             }else{
                 num1 = "9";
+                txtResultado.setText(num1);
             }
         }
         else if (num2=="" && sinal!=null){
             if (num1!=null && num1!=""){
-               num2 = "9"; 
+               num2 = "9";
+               txtResultado.setText(num2);
             }else{
                 num1 = "9";
+                txtResultado.setText(num1);
             }
         }
     }
@@ -310,18 +372,22 @@ public class CalculadoraController implements Initializable {
     
     public void buttonMais(){
         sinal="+";
+        txtResultado.setText(sinal);
     }
     
     public void buttonVezes(){
         sinal="*";
+        txtResultado.setText(sinal);
     }
     
     public void buttonMenos(){
         sinal="-";
+        txtResultado.setText(sinal);
     }
     
     public void buttonDivide(){
         sinal="/";
+        txtResultado.setText(sinal);
     }
     
     public void buttonIgual(){
@@ -350,6 +416,7 @@ public class CalculadoraController implements Initializable {
         else if (sinal==null){
             txtResultado.setText("Operação inálida!");
         }
+        //gravar no banco
     }
     
     public void buttonUser(){
