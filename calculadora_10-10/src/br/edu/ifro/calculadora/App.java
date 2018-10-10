@@ -26,7 +26,7 @@ public class App extends Application {
     public void start(Stage primaryStage) {
        try {
             Parent root = FXMLLoader.load(getClass().getResource("/br/edu/ifro/view/Login.fxml"));
-            Scene scene = new Scene(root, 440, 165);
+            Scene scene = new Scene(root, 600, 400);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.setTitle("Calculadora");
